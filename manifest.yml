@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/keisukegithub/staticfile-buildpack.git
+  host: helloagain-html-keisuke
+  name: helloagain-html
+  memory: 64M
+  stack: cflinuxfs2
